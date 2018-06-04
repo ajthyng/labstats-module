@@ -23,7 +23,7 @@
 
 /* Begin PBXBuildFile section */
 		822CD51F20C5B29500AE3BAE /* Pods_NativeModuleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822CD51E20C5B29500AE3BAE /* Pods_NativeModuleExample.framework */; };
-		822CD52120C5B29A00AE3BAE /* Pulley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822CD52020C5B29A00AE3BAE /* Pulley.framework */; };
+		822CD52320C5B75000AE3BAE /* Pulley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822CD52220C5B75000AE3BAE /* Pulley.framework */; };
 		82C8F75F20AA0B0500341E47 /* DubLabsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C8F75E20AA0B0500341E47 /* DubLabsSDK.framework */; };
 		82C8F76120AA0C7B00341E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C8F76020AA0C7B00341E47 /* Main.storyboard */; };
 		82C8F76320AA14D600341E47 /* PulleyRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8F76220AA14D600341E47 /* PulleyRootViewController.swift */; };
@@ -50,7 +50,7 @@
 /* Begin PBXFileReference section */
 		47782DFFCECD3C28B814706B /* Pods-NativeModuleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModuleExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeModuleExample/Pods-NativeModuleExample.debug.xcconfig"; sourceTree = "<group>"; };
 		822CD51E20C5B29500AE3BAE /* Pods_NativeModuleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NativeModuleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		822CD52020C5B29A00AE3BAE /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822CD52220C5B75000AE3BAE /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C8F75E20AA0B0500341E47 /* DubLabsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DubLabsSDK.framework; sourceTree = "<group>"; };
 		82C8F76020AA0C7B00341E47 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		82C8F76220AA14D600341E47 /* PulleyRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyRootViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822CD52120C5B29A00AE3BAE /* Pulley.framework in Frameworks */,
+				822CD52320C5B75000AE3BAE /* Pulley.framework in Frameworks */,
 				822CD51F20C5B29500AE3BAE /* Pods_NativeModuleExample.framework in Frameworks */,
 				82C8F75F20AA0B0500341E47 /* DubLabsSDK.framework in Frameworks */,
 			);
@@ -84,7 +84,7 @@
 		52AE3D27A2B76971BFD3F94E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				822CD52020C5B29A00AE3BAE /* Pulley.framework */,
+				822CD52220C5B75000AE3BAE /* Pulley.framework */,
 				822CD51E20C5B29500AE3BAE /* Pods_NativeModuleExample.framework */,
 			);
 			name = Frameworks;

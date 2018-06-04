@@ -1,0 +1,29 @@
+PODS:
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - Pulley (2.2.2)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - Pulley
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - Pulley
+
+SPEC CHECKSUMS:
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  Pulley: b9c20b583663668f532853de25066ae8d89396c4
+
+PODFILE CHECKSUM: 3b941aeae4d596dcf3ae4351e893cef14a1c41bd
+
+COCOAPODS: 1.5.0

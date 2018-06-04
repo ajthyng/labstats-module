@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		85C42A411F253C920004FD19 /* UniversalNativeModuleExample */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 85C42A421F253C920004FD19 /* Build configuration list for PBXAggregateTarget "UniversalNativeModuleExample" */;
+			buildPhases = (
+				85C42A451F253C960004FD19 /* ShellScript */,
+			);
+			dependencies = (
+				822CD51D20C5B28200AE3BAE /* PBXTargetDependency */,
+			);
+			name = UniversalNativeModuleExample;
+			productName = UniversalNativeModuleExample;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		822CD51F20C5B29500AE3BAE /* Pods_NativeModuleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822CD51E20C5B29500AE3BAE /* Pods_NativeModuleExample.framework */; };
+		822CD52120C5B29A00AE3BAE /* Pulley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822CD52020C5B29A00AE3BAE /* Pulley.framework */; };
+		82C8F75F20AA0B0500341E47 /* DubLabsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C8F75E20AA0B0500341E47 /* DubLabsSDK.framework */; };
+		82C8F76120AA0C7B00341E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C8F76020AA0C7B00341E47 /* Main.storyboard */; };
+		82C8F76320AA14D600341E47 /* PulleyRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8F76220AA14D600341E47 /* PulleyRootViewController.swift */; };
+		82C8F76520AA15C400341E47 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8F76420AA15C400341E47 /* MapViewController.swift */; };
+		82C8F76720AA174400341E47 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8F76620AA174400341E47 /* DrawerViewController.swift */; };
+		82C8F76920AA18D600341E47 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8F76820AA18D500341E47 /* Building.swift */; };
+		82C8F76B20AA18F100341E47 /* BuildingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8F76A20AA18F100341E47 /* BuildingCell.swift */; };
+		85C42A331F253A3E0004FD19 /* NativeModuleExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C42A311F253A3E0004FD19 /* NativeModuleExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C42A3A1F253A650004FD19 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C42A391F253A650004FD19 /* RootViewController.swift */; };
+		85C42A3E1F253B170004FD19 /* ModuleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C42A3D1F253B170004FD19 /* ModuleOneViewController.swift */; };
+		85C42A401F253BC70004FD19 /* ModuleTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C42A3F1F253BC70004FD19 /* ModuleTwoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		822CD51C20C5B28200AE3BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C42A251F253A3E0004FD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C42A2D1F253A3E0004FD19;
+			remoteInfo = NativeModuleExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47782DFFCECD3C28B814706B /* Pods-NativeModuleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModuleExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeModuleExample/Pods-NativeModuleExample.debug.xcconfig"; sourceTree = "<group>"; };
+		822CD51E20C5B29500AE3BAE /* Pods_NativeModuleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NativeModuleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822CD52020C5B29A00AE3BAE /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C8F75E20AA0B0500341E47 /* DubLabsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DubLabsSDK.framework; sourceTree = "<group>"; };
+		82C8F76020AA0C7B00341E47 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		82C8F76220AA14D600341E47 /* PulleyRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyRootViewController.swift; sourceTree = "<group>"; };
+		82C8F76420AA15C400341E47 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		82C8F76620AA174400341E47 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		82C8F76820AA18D500341E47 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		82C8F76A20AA18F100341E47 /* BuildingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingCell.swift; sourceTree = "<group>"; };
+		85C42A2E1F253A3E0004FD19 /* NativeModuleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NativeModuleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C42A311F253A3E0004FD19 /* NativeModuleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeModuleExample.h; sourceTree = "<group>"; };
+		85C42A321F253A3E0004FD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C42A391F253A650004FD19 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		85C42A3D1F253B170004FD19 /* ModuleOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneViewController.swift; sourceTree = "<group>"; };
+		85C42A3F1F253BC70004FD19 /* ModuleTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwoViewController.swift; sourceTree = "<group>"; };
+		FA734A211E49C4AB7CE04B3F /* Pods-NativeModuleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModuleExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeModuleExample/Pods-NativeModuleExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C42A2A1F253A3E0004FD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822CD52120C5B29A00AE3BAE /* Pulley.framework in Frameworks */,
+				822CD51F20C5B29500AE3BAE /* Pods_NativeModuleExample.framework in Frameworks */,
+				82C8F75F20AA0B0500341E47 /* DubLabsSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52AE3D27A2B76971BFD3F94E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				822CD52020C5B29A00AE3BAE /* Pulley.framework */,
+				822CD51E20C5B29500AE3BAE /* Pods_NativeModuleExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7831D704011112F129A2D4B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47782DFFCECD3C28B814706B /* Pods-NativeModuleExample.debug.xcconfig */,
+				FA734A211E49C4AB7CE04B3F /* Pods-NativeModuleExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85C42A241F253A3E0004FD19 = {
+			isa = PBXGroup;
+			children = (
+				85C42A301F253A3E0004FD19 /* NativeModuleExample */,
+				85C42A2F1F253A3E0004FD19 /* Products */,
+				7831D704011112F129A2D4B5 /* Pods */,
+				52AE3D27A2B76971BFD3F94E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85C42A2F1F253A3E0004FD19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C42A2E1F253A3E0004FD19 /* NativeModuleExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C42A301F253A3E0004FD19 /* NativeModuleExample */ = {
+			isa = PBXGroup;
+			children = (
+				82C8F75E20AA0B0500341E47 /* DubLabsSDK.framework */,
+				85C42A311F253A3E0004FD19 /* NativeModuleExample.h */,
+				85C42A321F253A3E0004FD19 /* Info.plist */,
+				82C8F76020AA0C7B00341E47 /* Main.storyboard */,
+				85C42A391F253A650004FD19 /* RootViewController.swift */,
+				85C42A3D1F253B170004FD19 /* ModuleOneViewController.swift */,
+				85C42A3F1F253BC70004FD19 /* ModuleTwoViewController.swift */,
+				82C8F76420AA15C400341E47 /* MapViewController.swift */,
+				82C8F76620AA174400341E47 /* DrawerViewController.swift */,
+				82C8F76220AA14D600341E47 /* PulleyRootViewController.swift */,
+				82C8F76820AA18D500341E47 /* Building.swift */,
+				82C8F76A20AA18F100341E47 /* BuildingCell.swift */,
+			);
+			path = NativeModuleExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85C42A2B1F253A3E0004FD19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C42A331F253A3E0004FD19 /* NativeModuleExample.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85C42A2D1F253A3E0004FD19 /* NativeModuleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C42A361F253A3E0004FD19 /* Build configuration list for PBXNativeTarget "NativeModuleExample" */;
+			buildPhases = (
+				E560B843F2B1DE695F65D90A /* [CP] Check Pods Manifest.lock */,
+				85C42A291F253A3E0004FD19 /* Sources */,
+				85C42A2A1F253A3E0004FD19 /* Frameworks */,
+				85C42A2B1F253A3E0004FD19 /* Headers */,
+				85C42A2C1F253A3E0004FD19 /* Resources */,
+				645A733CD985635764B933B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeModuleExample;
+			productName = NativeModuleExample;
+			productReference = 85C42A2E1F253A3E0004FD19 /* NativeModuleExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C42A251F253A3E0004FD19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "DubLabs LLC.";
+				TargetAttributes = {
+					85C42A2D1F253A3E0004FD19 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KV5755TZAS;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					85C42A411F253C920004FD19 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MBR6UNF966;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 85C42A281F253A3E0004FD19 /* Build configuration list for PBXProject "NativeModuleExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85C42A241F253A3E0004FD19;
+			productRefGroup = 85C42A2F1F253A3E0004FD19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C42A2D1F253A3E0004FD19 /* NativeModuleExample */,
+				85C42A411F253C920004FD19 /* UniversalNativeModuleExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C42A2C1F253A3E0004FD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C8F76120AA0C7B00341E47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		645A733CD985635764B933B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NativeModuleExample/Pods-NativeModuleExample-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeModuleExample/Pods-NativeModuleExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C42A451F253C960004FD19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"NativeModuleExample\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"NativeModuleExample\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/NativeModuleExample.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/NativeModuleExample.framework/Modules/NativeModuleExample.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/NativeModuleExample.framework/Modules/NativeModuleExample.swiftmodule\"\nfi\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/NativeModuleExample.framework/NativeModuleExample\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/NativeModuleExample.framework/NativeModuleExample\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/NativeModuleExample.framework/NativeModuleExample\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/NativeModuleExample.framework\" \"${PROJECT_DIR}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+		E560B843F2B1DE695F65D90A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeModuleExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C42A291F253A3E0004FD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C42A3E1F253B170004FD19 /* ModuleOneViewController.swift in Sources */,
+				85C42A3A1F253A650004FD19 /* RootViewController.swift in Sources */,
+				85C42A401F253BC70004FD19 /* ModuleTwoViewController.swift in Sources */,
+				82C8F76B20AA18F100341E47 /* BuildingCell.swift in Sources */,
+				82C8F76520AA15C400341E47 /* MapViewController.swift in Sources */,
+				82C8F76320AA14D600341E47 /* PulleyRootViewController.swift in Sources */,
+				82C8F76720AA174400341E47 /* DrawerViewController.swift in Sources */,
+				82C8F76920AA18D600341E47 /* Building.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		822CD51D20C5B28200AE3BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85C42A2D1F253A3E0004FD19 /* NativeModuleExample */;
+			targetProxy = 822CD51C20C5B28200AE3BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85C42A341F253A3E0004FD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85C42A351F253A3E0004FD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85C42A371F253A3E0004FD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47782DFFCECD3C28B814706B /* Pods-NativeModuleExample.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KV5755TZAS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NativeModuleExample",
+				);
+				INFOPLIST_FILE = NativeModuleExample/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dublabs.NativeModuleExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		85C42A381F253A3E0004FD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA734A211E49C4AB7CE04B3F /* Pods-NativeModuleExample.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KV5755TZAS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NativeModuleExample",
+				);
+				INFOPLIST_FILE = NativeModuleExample/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dublabs.NativeModuleExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		85C42A431F253C920004FD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = MBR6UNF966;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85C42A441F253C920004FD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = MBR6UNF966;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C42A281F253A3E0004FD19 /* Build configuration list for PBXProject "NativeModuleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C42A341F253A3E0004FD19 /* Debug */,
+				85C42A351F253A3E0004FD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C42A361F253A3E0004FD19 /* Build configuration list for PBXNativeTarget "NativeModuleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C42A371F253A3E0004FD19 /* Debug */,
+				85C42A381F253A3E0004FD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C42A421F253C920004FD19 /* Build configuration list for PBXAggregateTarget "UniversalNativeModuleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C42A431F253C920004FD19 /* Debug */,
+				85C42A441F253C920004FD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C42A251F253A3E0004FD19 /* Project object */;
+}

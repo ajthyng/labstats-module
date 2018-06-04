@@ -1,0 +1,4 @@
+framework module DubLabsSDK {
+    header "DubLabsSDK-Swift.h"
+    requires objc
+}

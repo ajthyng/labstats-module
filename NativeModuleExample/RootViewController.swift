@@ -16,7 +16,8 @@ public class RootViewController: NSObject {
     }
     
     public class func moduleTwoViewController() -> UIViewController {
-        return ModuleTwoViewController()
-    }
-    
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "moduleTwo")
+        return vc
+    }    
 }
